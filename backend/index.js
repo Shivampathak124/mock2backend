@@ -19,7 +19,7 @@ app.use(cors({
 
 app.use(express.json());
 
-const port = 8080;
+const port = 5080;
 
 
 app.post("/signup", async (req, res) => {
